@@ -1,0 +1,16 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+  text-align: center;
+}
+td.img {
+  padding: 0px;
+}
+table {
+  width: 100%;
+}
+img {
+  width: auto;
+  max-height: 100px;
+}

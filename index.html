@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+
+  <link rel="icon" type="image/ico" href="http://restcountries.eu/img/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <title>REST Countries</title>
+
+</head>
+
+<body>
+
+  <h1>Search Countries By Name</h1>
+
+  <form id="input" action="#">
+    <input type="text" id="search" placeholder="Country Name" />
+    <select id="sort">
+      <option selected disabled required>Sort by</option>
+      <option value="name">Name</option>
+      <option value="population">Population</option>
+    <select>
+    <input type="submit" />
+  </form>
+
+  <div id="results" />
+
+</body>
+
+</html>
